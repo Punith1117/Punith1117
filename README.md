@@ -75,7 +75,7 @@ Live Demo: https://photo-tagging-punith1117.netlify.app/
 # 🧠 Tech Stack
 
 **Frontend:** React • JavaScript (ES6+) • HTML5 • CSS  
-**Backend:** Node.js • Express  
+**Backend:** Node.js • Express • Prisma ORM  
 **Database:** PostgreSQL  
 **Tools:** Git • REST APIs • Postman • Vite • Jest • Vitest • JWT Authentication (Passport.js)  
 **Deployment:** Netlify • Render • Supabase
