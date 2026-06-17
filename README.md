@@ -79,7 +79,7 @@ A production-style social media application implementing core social networking 
 - Backend API design and system architecture  
 - Database modeling and transactional systems  
 - Authentication and authorization patterns  
-- Real-time and event-driven systems  
+- Real-time communication systems  
 - Offline-first data synchronization  
 - Integration and end-to-end testing strategies  
 - Production deployment fundamentals  
