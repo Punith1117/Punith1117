@@ -95,6 +95,14 @@ A production-style social media application implementing core social networking 
 
 ---
 
+# Open Source Contributions 
+
+- Contributed merged pull request to [React Documentation](https://github.com/reactjs/react.dev/pull/7629), improving learning resources by clarifying framework behavior after maintainer review and iterative feedback.
+- Contributed multiple merged pull requests to [The Odin Project](https://github.com/TheOdinProject/curriculum/pull/29282), correcting curriculum content and updating React learning materials to remain compatible with React 19 ecosystem changes.
+- Improved [Ghostfolio](https://github.com/ghostfolio/ghostfolio/pull/6978) by contributing Ukrainian localization updates through the project’s collaborative review and merge process.
+
+---
+
 # Learning Direction
 
 - System design fundamentals for scalable web applications  
