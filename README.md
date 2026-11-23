@@ -1,20 +1,42 @@
 # Punith R
 
-**Full-Stack / Backend Engineer focused on building production-style web systems with emphasis on API design, database architecture, and system reliability.**
+**Full-Stack / Backend Engineer focused on building production-style systems, with an emphasis on backend architecture, API design, database engineering, and system reliability.**
 
-I enjoy building applications that go beyond CRUD by incorporating real-world engineering concerns such as:
+I enjoy building applications that go beyond CRUD by tackling real-world engineering challenges such as:
 
-- transactional consistency  
-- offline-first workflows  
-- real-time updates  
-- scalable backend design  
-- testing-driven reliability  
+- Transactional consistency and data integrity
+- Concurrent operations and race-condition prevention
+- Offline-first workflows and synchronization
+- Reliable asynchronous processing and real-time updates
+- Scalable backend architecture and testing-driven reliability
 
-Currently focused on strengthening backend systems and production deployment practices using Node.js, PostgreSQL, and modern web frameworks.
+Currently focused on backend engineering with **Go, PostgreSQL, and Node.js**, exploring concurrency, distributed systems concepts, and production-grade application design.
 
 ---
 
 # Featured Projects
+
+## TicketForge (Go / High-Concurrency Backend)
+
+A high-concurrency ticket booking engine built with **Go and PostgreSQL 18**, focused on transactional inventory management, reservation lifecycles, payment processing, and reliable asynchronous workflows.
+
+🔗 GitHub: https://github.com/Punith1117/ticket-forge
+
+### Highlights
+
+- Implemented concurrency-safe ticket reservations using PostgreSQL transactions, row-level locking, and inventory constraints to prevent overselling.
+- Built a two-phase reservation and booking workflow with temporary inventory holds, lazy expiration, and simulated payment processing.
+- Implemented a transactional outbox pattern with background workers, batch leasing using `FOR UPDATE SKIP LOCKED`, retry handling, and dead-letter processing.
+- Designed payment webhook handling with idempotency protection and compensation for late payments.
+- Implemented secure authentication using Argon2id password hashing, stateful sessions, and PostgreSQL-backed rate limiting.
+- Used SQL-first database tooling with `pgx`, `sqlc`, and Goose migrations instead of an ORM.
+- Documented architectural decisions, domain models, state machines, critical workflows, and failure scenarios through system design documents and ADRs.
+
+**Tech Stack:** Go, PostgreSQL 18, pgx, sqlc, Goose, Docker, Mailpit
+
+**Focus:** Concurrent systems, transactional consistency, inventory management, idempotency, asynchronous processing, and backend reliability.
+
+*Status: Actively under development.*
 
 ## Secure Feedback Platform (System Design / Backend Focus)
 
@@ -66,32 +88,37 @@ A production-style social media application implementing core social networking 
 
 # Technical Skills
 
-**Backend:** Node.js, Express, PostgreSQL, Prisma, Drizzle ORM  
-**Frontend:** React, TypeScript, Next.js  
-**Testing:** Vitest, Playwright, Jest, Supertest  
-**Tools:** Git, GitHub Actions, Postman  
-**Deployment:** Vercel, Netlify, Render  
+**Languages:** Go, JavaScript, TypeScript  
+**Backend:** Go, Node.js, Express, REST APIs  
+**Databases:** PostgreSQL, Prisma, Drizzle ORM, sqlc  
+**Frontend:** React, Next.js  
+**Testing:** Go testing, Vitest, Playwright, Jest, Supertest  
+**Tools & Infrastructure:** Git, Docker, GitHub Actions, Postman, Goose  
+**Deployment:** Vercel, Netlify, Render
 
 ---
 
 # Engineering Focus Areas
 
-- Backend API design and system architecture  
-- Database modeling and transactional systems  
-- Authentication and authorization patterns  
-- Real-time communication systems  
-- Offline-first data synchronization  
-- Integration and end-to-end testing strategies  
-- Production deployment fundamentals  
+- Backend API design and system architecture
+- Concurrent programming and race-condition prevention
+- Database modeling, transactions, and consistency
+- Authentication, authorization, and API security
+- Idempotency and reliable payment workflows
+- Background processing and event-driven architecture
+- Distributed systems concepts and fault tolerance
+- Integration, concurrency, and end-to-end testing
 
 ---
 
 # Current Improvements
 
-- Docker-based environment setup for reproducible development  
-- Redis caching and rate limiting for performance optimization  
-- Improved observability and system debugging practices  
-- Exploring scalable backend architecture patterns  
+- Building TicketForge, a high-concurrency ticket booking backend in Go
+- Exploring Redis for caching and distributed coordination
+- Implementing background workers and reliable asynchronous processing
+- Strengthening observability, structured logging, and system debugging
+- Exploring load testing and backend performance optimization
+- Improving Docker-based development and deployment workflows 
 
 ---
 
